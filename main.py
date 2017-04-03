@@ -1,8 +1,1 @@
-def main():
-    pass
-
-def test():
-    pass
-
-if __name__ == "__main__":
-    main()
+from map import Mapdef main():    map = Map()    map.print_map()    print()    map.use_key("s")    map.print_map()    print()    map.use_key("p")    map.print_map()    print()    map.use_key("c")    map.print_map()def test():    passif __name__ == "__main__":    main()
